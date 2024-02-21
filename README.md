@@ -53,12 +53,14 @@ Para este ejemplo se utilizó reenvío de puertos en Visual Studio Code, siga lo
   <img src="https://i.postimg.cc/Kz8YJ4JP/PORTS.png" />
 </p>
 
-## 5.- Configurar la URL de notificación al final del pago
+## 5.- Probar el FormToken desde POSTMAN
 
-  * Ingresar a su back office vendedor [aquí](https://secure.micuentaweb.pe/vads-merchant/) e ingresar a la siguiente ruta: `Configuración -> Reglas de notificaciones -> Url de notificación al final del pago`, una ves ingrese su endpoint, Guarda y acepta el mensaje de confirmación.
+* Colocar la URL con el metodo POST y enviar la consulta. En el Body se mostrara la respuesta con el FormToken
+  
+ ```bash
+https://d8w2qr3v-5000.brs.devtunnels.ms/CreatePayment
+```
 
-    <p align="center">
-  <img src="https://i.postimg.cc/NFRBtP7x/finaldelpago.png" alt="Popin" width="850"/>
-</p>
+  
   
 
