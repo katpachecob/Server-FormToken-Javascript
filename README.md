@@ -25,7 +25,7 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 ## 3. Despliegue
 ### Clonar el proyecto:
   ```sh
-  git clone [https://github.com/izipay-pe/Server-IPN-JavaScript.git]
+  git clone [https://github.com/izipay-pe/Server-FormToken-Javascript.git]
   ```
 ### Ejecutar proyecto
 * Ingrese a la carpeta raíz del proyecto desde el terminal.
