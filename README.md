@@ -6,11 +6,11 @@
 * [4. Subirlo al servidor web](#4-subirlo-al-servidor-web)
 * [5. Configurar la URL de notificacion al final del pago](#5--configurar-la-url-de-notificaci%C3%B3n-al-final-del-pago)
 ## 1. Introducción
-En este manual podrás encontrar una guía paso a paso para configurar un proyecto de **[JavaScript]** con la respuesta de la IPN. Te proporcionaremos instrucciones detalladas y credenciales de prueba para la instalación y configuración del proyecto, permitiéndote trabajar y experimentar de manera segura en tu propio entorno local.
+En este manual podrás encontrar una guía paso a paso para configurar un proyecto de **[JavaScript]** el FormToken. Te proporcionaremos instrucciones detalladas y credenciales de prueba para la instalación y configuración del proyecto, permitiéndote trabajar y experimentar de manera segura en tu propio entorno local.
 Este manual está diseñado para ayudarte a comprender el flujo de la integración de la pasarela para ayudarte a aprovechar al máximo tu proyecto y facilitar tu experiencia de desarrollo.
 
 <p align="center">
-  <img src="https://i.postimg.cc/ZK0X6Qys/repuestaipn.png" alt="Popin" width="850"/>
+  <img src="https://i.postimg.cc/KvxTGLZL/formtoken.png" alt="Popin" width="850"/>
 </p>
 
 <a name="Requisitos_Previos"></a>
