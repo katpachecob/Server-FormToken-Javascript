@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 const request = require('request');
+const generateRandomString = require('../utils/randomLetters');
 
 //Ruta de las credenciales de conexión
 const keys = require("../data/keys_Authentication");
@@ -18,23 +19,14 @@ router.post('/', function(req, res, next)
   var order = req.body;
   
   if(isEmptyObject(order) === true || isEmptyObject(order) === 'undefined'){
+    
       order = {
         "amount":   200,
         "currency": "PEN",
-        "orderId":  "myOrderId-999999",
+        "orderId":  generateRandomString(10),
         "customer": {
-            "email": "sample@example.com"
+            "email": "info@sonicshift.digital"
         },
-        
-        /************************************************************************/
-        /*Se envia "0" si no quieres que se visualice las cuotas y pago diferido*/
-        /************************************************************************/
-        /*      "transactionOptions": {                                         */
-        /*          "cardOptions": {                                            */
-        /*              "installmentNumber": 0                                  */
-        /*          }                                                           */
-        /*      }                                                               */
-        /************************************************************************/
       };    
   }
   else{

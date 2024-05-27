@@ -7,11 +7,11 @@
 */
 
 const keys = {    
-    "username"   : "xxxxxxxxxxx",
-    "password"   : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "username"   : process.env.username,
+    "password"   : process.env.password,
     "endpoint"   : "https://api.micuentaweb.pe",
-    "publickey"  : "xxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "HMACSHA256" : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    "publickey"  : process.env.publickey,
+    "HMACSHA256" : process.env.HMACSHA256
 }
 
 module.exports =  keys
